@@ -1,0 +1,20 @@
+using System;
+
+namespace exercise
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name;
+            Console.WriteLine("Hello, what's your name?");
+            name = Console.ReadLine();
+            Console.WriteLine("Hi "  + nome + ", my name is robotX");
+
+            Console.WriteLine("How old are you?");
+            int age = int.Parse(Console.ReadLine());
+            Console.WriteLine("woow, you are " + age + " years old");
+                
+        }
+    }
+}
